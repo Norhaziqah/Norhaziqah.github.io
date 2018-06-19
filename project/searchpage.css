@@ -1,0 +1,100 @@
+@font-face{
+		font-family: Montserrat;
+		src: url("Montserrat.ttf");
+	}
+body{
+	margin: 0; 
+	font-family: "Helvetica Neue";
+	background-color: #ECF0F1;
+}
+.searchbar{
+	background-color: #1D3A68;
+	height: 50px;
+}
+.searchbar img{
+	height: 30px;
+	vertical-align: middle;
+	padding-left: 220px;
+}
+.searchbox{
+	margin-left: -5px;
+	margin-top: 14px;
+	width: 300px;
+}
+.overall{
+	width: 1000px;
+	margin-left: auto;				
+	margin-right: auto;
+}
+.banner{
+	background-color: #264A84;
+	font-family: Montserrat;
+	color: white;
+	text-shadow: -2px 2px black;
+	height: 150px;
+	padding-left: 180px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 16pt;
+	border-bottom: 10px solid #1D3A68;
+}
+.banner img{
+	float: left;
+	height: 180px;
+	vertical-align: bottom;
+	
+}
+.categories{
+	float: left;
+	margin-top: 10px;
+	width:200px;
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+a{
+	text-decoration: none;
+}
+.display{
+	float: right;
+	width: 720px;
+	border-left: 1px solid gray;
+	margin-top: 10px;
+}
+.section1{
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.section2{
+	background-color: white;
+	border:1px solid black;
+	margin-left: 30px;
+	width: 710px;
+	height: 800px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section2 img{
+	width: 200px;
+	height: 200px;
+}
+.image{
+	border: 1px solid gray;
+	height: 300px;
+	width: 200px;
+	margin: 10px;
+	margin-right: 0px;
+	padding: 10px;
+}
+.pageno{
+	clear: both;
+	text-align: center;
+	border-top: 1px solid gray;
+
+}

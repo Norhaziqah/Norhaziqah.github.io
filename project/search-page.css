@@ -1,0 +1,64 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+
+header{
+	width: 950px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: white;
+	text-align: center;	
+	border : black ridge 2px;
+	border-radius: 10px;
+	margin-bottom : 10px;
+	background-color: cyan;
+}
+
+nav{
+	width: 950px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+	border : black ridge 2px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+article{
+	width:950px;
+	height: 500px;
+	background-color: white;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: scroll;
+}
+
+/* can do 3x3 column */
+#column{ 
+	background-color: cyan;
+	width:30%;
+	height: 30%;
+}
+
+.image{
+	margin: 5px;
+    border: 1px solid #ccc;
+    width: 215px;
+    float :left;
+}
+.image p{
+	text-align: 
+}
+img{
+	width: 100%;
+}
+
+footer{
+	width: 950px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+	border : black ridge 2px;
+	border-radius: 10px;
+	background-color: black;
+}

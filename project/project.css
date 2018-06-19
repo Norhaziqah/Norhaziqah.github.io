@@ -1,0 +1,138 @@
+@font-face{
+		font-family: Montserrat;
+		src: url("Font/Montserrat.ttf");
+	}
+body{
+	margin: 0; 
+	font-family: "Helvetica Neue";
+	background-color: #ECF0F1;
+}
+.banner{
+	background-color: #1D3A68;
+	height: 50px;
+}
+
+.banner img{
+	height: 30px;
+	vertical-align: middle;
+	padding-left: 220px;
+}
+.searchbox1{
+	margin-left: -5px;
+	margin-top: 14px;
+	width: 300px;
+}
+.overall{
+	width: 1000px;
+	margin-left: auto;				
+	margin-right: auto;
+}
+.section1{
+	background-color: #264A84;
+	font-family: Montserrat;
+	color: white;
+	text-shadow: -2px 2px black;
+	height: 150px;
+	padding-left: 180px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 16pt;
+	border-bottom: 10px solid #1D3A68;
+}
+.section1 img{
+	float: left;
+	height: 180px;
+	vertical-align: bottom;
+	
+}
+.floatleft{
+	float: left;
+	margin-top: 10px;
+	width:200px;
+}
+
+.section2{
+	padding: 0.5em;
+	margin-top: 20px;
+	width: 250px;
+	font-weight: bold;
+	font-size: 16pt;
+	text-align: center;
+
+}
+.section3{
+	background-color: white;
+	color:gray;
+	border:1px solid gray;
+	border-radius: 20px;
+	padding: 0.5em;
+	width: 220px;
+	height: 70px;
+	font-size: 10pt;
+	text-align: center;
+	margin-left: 20px;
+}
+.submitbutton1{
+	margin-top: 10px;
+	width: 150px;
+}
+.section4{
+	border-top: 1px solid gray;
+	padding: 0.5em;
+	margin-top: 40px;
+	width: 250px;
+	font-weight: bold;
+	font-size: 16pt;
+	text-align: center;
+}
+.section5{
+	background-color: white;
+	color:gray;
+	border:1px solid gray;
+	border-radius: 20px;
+	padding: 0.5em;
+	width: 220px;
+	height: 100px;
+	font-size: 10pt;
+	text-align: center;
+	margin-left: 20px;
+}
+.submitbutton2{
+	margin-top: 15px;
+	width: 150px;
+}
+.searchbox2{
+	width: 100px;
+	margin-top: 15px;
+	text-align: center;
+}
+.floatright{
+	float: right;
+	width: 720px;
+	border-left: 1px solid gray;
+	margin-top: 10px;
+}
+.section6{
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.section7{
+	background-color: white;
+	border:1px solid black;
+	margin-left: 30px;
+	height: 350px;
+	margin-bottom: 50px;
+	overflow: scroll;
+}
+.image{
+	width: 150px;
+	height: 150px;
+}
+hr{
+	clear: both;
+}
+

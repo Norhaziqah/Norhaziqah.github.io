@@ -1,0 +1,85 @@
+@font-face{
+		font-family: Montserrat;
+		src: url("Font/Montserrat.ttf");
+	}
+body{
+	margin: 0; 
+	font-family: "Helvetica Neue";
+	background-color: #ECF0F1;
+}
+.section1{
+	background-color: #264A84;
+	font-family: Montserrat;
+	color: white;
+	text-shadow: -2px 2px black;
+	height: 150px;
+	padding-left: 180px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 16pt;
+	border-bottom: 10px solid #1D3A68;
+	border-top: 10px solid #1D3A68;
+}
+.section1 img{
+	float: left;
+	height: 180px;
+	vertical-align: bottom;
+	
+}
+
+.overall{
+	width: 1000px;
+	margin-left: auto;				
+	margin-right: auto;
+}
+.floatright{
+	float: right;
+	width: 820px;
+	border-left: 1px solid gray;
+	margin-top: 10px;
+}
+.Title{
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding: 0.5em;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.Title img{
+	height: 30px;
+	vertical-align: middle;
+}
+.form-section{
+	background-color: white;
+	border:1px solid black;
+	margin-left: 30px;
+	height: 350px;
+	margin-bottom: 50px;
+}
+
+.form-section  > p{
+	padding-left: 50px;
+	color:gray;
+}
+
+#result{
+	background-color: white;
+	border:1px solid black;
+	margin-left: 30px;
+	height: 500px;
+	overflow: scroll;
+	margin-bottom: 50px;
+}
+
+#result p{
+	padding-left: 10px;
+	color:gray;
+}
+
+#result img{
+	margin-top: 20px;
+	margin-left: 20px; 
+	width: 150px;
+	height: 150px;
+}
