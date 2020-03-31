@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color: #FFFFCC;
+	text-align:center;
+	background-image: url("bg.jpg");
+}
+#intro{
+	color: orange;
+	text-align: center;
+  	/*text-shadow: -1px 0 #FFFFCC, 0 1px #FFFFCC, 1px 0 #FFFFCC, 0 -1px #FFFFCC;*/
+  	text-shadow:2px 2px 8px #FF0000;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+	font-size: 50px;
+}
+#intro:hover{
+	color: #FFFFCC;
+	text-align: center;
+  	text-shadow: -1px 0 #FFFFCC, 0 1px #FFFFCC, 1px 0 #FFFFCC, 0 -1px #FFFFCC;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+	font-size: 50px;
+
+}
+h1{
+	padding-top:1%;
+   color: #FFFF00;
+	text-align: center;
+  	text-shadow: -1px 0 #FFFFCC, 0 1px #FFFFCC, 1px 0 #FFFFCC, 0 -1px #FFFFCC;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+label{
+	padding-left: 50px;
+	color:#FFFFCC;
+	position: relative;
+	top: 3px;
+	margin-top: 13px;
+}
+label:hover{
+	color:purple;
+}
+.label{
+	background-color: #212121;
+	position: relative;
+	padding : 0px;
+	margin: 0px;
+	top: -8px;
+	height: 30px;
+	opacity: 80%;
+	position: sticky;
+}
+a h2:hover{
+	color:#B71C1C;
+	 text-align: center;
+  	text-shadow: -1px 0 #212121, 0 1px #212121, 1px 0 #212121, 0 -1px #212121;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+}
+a{
+	color:#FFFFCC;
+	text-align: center;
+  	text-shadow: -1px 0 #212121, 0 1px #212121, 1px 0 #212121, 0 -1px #212121;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+}
+
+.pattern{
+	height:25%;
+	width:10%;
+	float:left;
+	background-color: #212121;
+	opacity:0%;
+	margin: 5px;
+	padding-right:15px;
+
+}
+
+@keyframes mymove{
+	0% {height:25%;}
+	50% {height:50%; width:5%;background-color:#B71C1C; opacity:50%;}
+	100% {height:25%; }
+}
+
+@keyframes emptyanim {}
+
+.animate{
+	animation: mymove 4s 1;
+}
+
+#imagepanel{
+	float:right;
+	background-color:#212121;
+	height:65%;
+	width:55%;
+	z-index:2;
+	margin-right:5%;
+	margin-top:3%;
+	box-shadow: 10px 10px;
+}
+
+#text
+{
+	width:45%;
+	margin:2%;
+	margin-top:1%;
+	height:65%;
+	margin-top:5%;
+}
+
+.biodata-division{
+	position: relative;
+	height:500px;
+	z-index:-1;
+
+}
+
+.blog-division{
+	margin-top:80px;
+	height:50%;
+	overflow: scroll;
+	width:80%;
+	margin-left: 10%;
+
+}
+
+#biodata{
+	margin-left:42%;
+	z-index:1;
+	background-color: #FFFFCC;
+	margin:5%;
+	width:60%;
+	height: 50%;
+	text-align: center;
+	border-style: ridge;
+	font-size: 30px;
+	position: relative;
+	top:-200px;
+	left:20%;
+	z-index:0;
+	opacity: 70%;
+	border-radius: 15px;
+	box-shadow: 10px 10px;
+
+}
+
+#my-image{
+	position: relative;
+	margin-left:5%;
+	top:90px;
+	z-index:2;
+	width:20%;
+	height:40%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	left:-37.5%;
+}
+#biodata p{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size:15px;
+	font-family: Courier New,typewriter;
+}
+
+::selection {
+  color: #212121;
+  background: yellow;
+}
+
+span{
+	position:relative;
+	left:-45%;
+	font-size:50px;
+	top:150px;
+	z-index:5;
+}
+h3{
+	color:#B71C1C;
+	text-align: center;
+  	text-shadow: -1px 0 #212121, 0 1px #212121, 1px 0 #212121, 0 -1px #212121;
+	font-family: Book Antiqua, fantasy;
+}
+
+h1:hover{
+	padding-top:1%;
+	color: #CCCC00;
+	text-align: center;
+  	text-shadow: -1px 0 #FFFFCC, 0 1px #FFFFCC, 1px 0 #FFFFCC, 0 -1px #FFFFCC;
+	font-family: Book Antiqua, fantasy;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.special{
+	border-style: ridge;
+	width:5%;
+	position:relative;
+	left:45%;
+}
+
+/*style */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: black;
+  color: orange;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: yellow;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: orange;
+  display: none;
+  overflow: hidden;
+}
