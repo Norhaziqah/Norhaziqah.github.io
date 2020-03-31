@@ -1,10 +1,153 @@
 <html>
-<!-- A portfolio for myself and also a place tot test new things for me-->
-<head>
-	    <meta charset="utf-8">
-        <title>PORTFOLIO: Norhaziqah</title>
-</head>
 <body>
-	<a href="project/index.html">Projects</a>
-	</body>
+	<link rel="stylesheet" href="portfolio.css">
+	<script>
+	function myFunction(i) {
+	var element = document.getElementById(i);
+  	element.classList.remove("animate");
+	void element.offsetWidth; // trigger a DOM reflow
+	element.classList.add("animate");
+	var imagePanel = document.getElementById("imagepanel");
+	if(i==1)
+	{
+		var image = document.createElement("img");
+		image.setAttribute("src","resst.jpg");
+		image.setAttribute("width","100%")
+		image.setAttribute("height","100%")
+		imagePanel.replaceChild(image,imagePanel.firstChild);
+		element.textContent = "0%";
+	}
+	if(i==2)
+	{
+		var image = document.createElement("img");
+		image.setAttribute("src","projects.jpg");
+		image.setAttribute("width","100%")
+		image.setAttribute("height","100%")
+		imagePanel.replaceChild(image,imagePanel.firstChild);
+		element.textContent = "0%";
+	}
+	if(i==3)
+	{
+		var image = document.createElement("img");
+		image.setAttribute("src","resst.jpg");
+		image.setAttribute("width","100%")
+		image.setAttribute("height","100%")
+		imagePanel.replaceChild(image,imagePanel.firstChild);
+		element.textContent = "0%";
+	}
+	if(i==4)
+	{
+		var image = document.createElement("img");
+		image.setAttribute("src","projects.jpg");
+		image.setAttribute("width","100%")
+		image.setAttribute("height","100%")
+		imagePanel.replaceChild(image,imagePanel.firstChild);
+		element.textContent = "0%";
+	}
+	}
+	</script>
+
+	<div class="label"><a href="#intro"><label>Home</label></a><a href="#projectlist"><label>Projects</label></a><a href="#blog"><label>Blog</label></a><a href="#contact"><label>Contact Me</label></a></div>
+
+	<h1 id="intro">Welcome to my portfolio</h1>
+	<h1 class="special">Biodata</h1>
+	<div class="biodata-division"><img id="my-image" src="download.jpg"><div id="biodata"><h3>About Me:</h3><p>Graduate from Hanyang University ERICA Campus majoring in Computer Science and Engineering, graduated last year and currently looking for employment. Please contact me for any opportunities!</p></div></div>
+
+	<div id ="projectlist">
+	<h1>Projects</h1>
+	<h3>including:</h3>
+	<div id="imagepanel"><img src="projects.jpg" width="100%" height="100%"></div>
+
+	<div id="text">
+	<a href="https://www.zomato.com/kuala-lumpur"><h2 onmouseover="myFunction(1)">Restaurant website</h2></a>
+	<div class="pattern animate" id="1"></div>
+	<a href="https://www.zomato.com/kuala-lumpur"><h2 onmouseover="myFunction(2)">E-commerce</h2></a>
+	<div class="pattern" id="2"></div>
+	<a href="https://www.zomato.com/kuala-lumpur"><h2 onmouseover="myFunction(3)">Real estate</h2></a>
+	<div class="pattern" id="3"></div>
+	<a href="https://www.zomato.com/kuala-lumpur"><h2 onmouseover="myFunction(4)" >Brand</h2></a>
+	<div class="pattern" id="4"></div>
+	</div>
+	</div>
+
+	<h1>Blogs</h1>
+	<h3>where I keep track of progress</h3>
+	<div id="blog" class="blog-division">
+		<button class="accordion">20/03/2020</button>
+		<div class="panel">
+		  <p>Gained inspiration from Youtube to do projects! Decided to do 5 projects including this portfolio projects. Other including restaurant, e-commerce, branding and real estate. Started with the portfolio project. Finished the biodata and project parts. Make the menu on the top with labels, and also when hover will go the targeted section in the page. Included projects part with animation, first managed to make the pattern animate, next manage to make the pictures change when hover to the text, and also whe click can navigate to the said url. Overall project section is done. Allocate space for blog section.</p>
+		</div>
+
+		<button class="accordion">22/03/2020</button>
+		<div class="panel">
+		  <p>Not satisfied with overall look of the blog. Change in background, using a background-image. Before was a normal color looking background. Adding a new section for 'contact me' section.The about me is still not satisfied so there was some changes, adding the welcome to my portfolio(?) combining the welcome to my portfolio and biodata. A bit tweak in the menu upside part by changing where it actually navigate to for more accurate pointer, also make the menu as a sticky where it will stick on top throughout the scrolling of the website. Was tweaking for blog section, but it was hard getting an idea on how to actually implement it, first plan was to actually put only fours box for four entry but it was hard because there are going to be more than 4 entries. Thus searching results to usage of accordion. Decided to use accordion. Tweak the overall look of the website by changing color a bit. Attempt to make a typewriter effect for the about me but failed. Attempt to make typewriter affect on the welcome to.... but decided not to after successful. Added a different highlight color so that when user highlight it doesn't show default white-blue but yellow-black. Added scroll features for the the blog in case the entries becomes too much. +added progress of 0% on the red pattern.</p>
+		</div>
+
+		<button class="accordion">Section 3</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 4</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 4</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+				<button class="accordion">Section 1</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 2</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 3</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 4</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+		<button class="accordion">Section 4</button>
+		<div class="panel">
+		  <p>Lorem ipsum...</p>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    /* Toggle between adding and removing the "active" class,
+		    to highlight the button that controls the panel */
+		    this.classList.toggle("active");
+
+		    /* Toggle between hiding and showing the active panel */
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+		  });
+		}
+	</script>
+	<div id="contact"><h1>Contact Me:</h1>
+	<h3>Please fill in the following details:</h3>
+	<div></div>
+	</div>
+
+</body>
 </html>
